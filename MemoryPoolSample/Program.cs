@@ -23,6 +23,8 @@ namespace MemoryPoolSample
 
         private static void DoSomethingWithMemory(Memory<byte> someBytes)
         {
+            var aSpan = someBytes.Span;
+
             // do some stuff!
         }
 
